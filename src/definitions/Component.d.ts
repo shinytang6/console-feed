@@ -15,6 +15,7 @@ export interface Context extends Theme {
 
 export interface Message extends Payload {
   data: any[]
+  [propName: string]: any;
 }
 
 export interface Props {
